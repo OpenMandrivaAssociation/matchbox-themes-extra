@@ -1,16 +1,15 @@
 %define name 	matchbox-themes-extra
 %define version 0.3
-%define release 1mdk
+%define release %mkrel 2
 
 Summary: 	Themes for the Matchbox Desktop
 Name: 		%name
 Version: 	%version
 Release: 	%release
-Url: 		http://matchbox.handhelds.org/
-License: 	GPL
+Url: 		http://matchbox-project.org
+License: 	GPLv2+
 Group: 		Graphical desktop/Other
-Source: 	ftp://ftp.handhelds.org/matchbox/sources/matchbox-themes-extra/%version/%{name}-%{version}.tar.bz2
-
+Source: 	http://matchbox-project.org/sources/matchbox-themes-extra/%version/%{name}-%{version}.tar.bz2
 Buildroot: 	%_tmppath/%name-%version-buildroot
 BuildArch:	noarch
 
@@ -36,4 +35,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc README TODO
 %_iconsdir/*
 %_datadir/themes/*
-
