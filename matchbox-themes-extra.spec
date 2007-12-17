@@ -10,7 +10,6 @@ Url: 		http://matchbox-project.org
 License: 	GPLv2+
 Group: 		Graphical desktop/Other
 Source: 	http://matchbox-project.org/sources/matchbox-themes-extra/%version/%{name}-%{version}.tar.bz2
-Buildroot: 	%_tmppath/%name-%version-buildroot
 BuildArch:	noarch
 
 %description
