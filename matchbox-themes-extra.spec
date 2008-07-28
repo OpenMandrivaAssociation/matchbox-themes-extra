@@ -1,6 +1,6 @@
 %define name 	matchbox-themes-extra
 %define version 0.3
-%define release %mkrel 2
+%define release %mkrel 4
 
 Summary: 	Themes for the Matchbox Desktop
 Name: 		%name
