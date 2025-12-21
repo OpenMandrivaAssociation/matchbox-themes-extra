@@ -13,6 +13,11 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source: 	http://matchbox-project.org/sources/matchbox-themes-extra/%version/%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Extra themes for the Matchbox Desktop
 
